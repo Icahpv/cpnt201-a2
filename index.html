@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Optimization</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/fonts.css">
+</head>
+<body>
+  <header>
+    <h1>Raster Image Optimization</h1>
+  </header>
+  <div class="container">
+    <img src="assets/images/full/aurora-1.jpg" alt="Aurora 1" />
+    <img src="assets/images/full/aurora-2.jpg" alt="Aurora 2" />
+    <img src="assets/images/full/aurora-3.jpg" alt="Aurora 3" />
+  </div>
+
+  <section>
+    <h2>Aurora Images!</h2>
+    <!-- aurora 1 -->
+    <img src="assets/images/medium/md-aurora-1.jpg" 
+    alt="aurora-1" 
+    sizes="(min-width: 960px) 80vw,
+            (min-width: 640px) 90vw, 100vw" 
+    srcset="assets\images\small\sm-aurora-1.jpg 700w,
+            assets\images\medium\md-aurora-1.jpg 900w,
+            assets\images\large\lg-aurora-1-webp.webp 1200w"
+    loading="lazy">
+    <!-- aurora 2 -->
+    <img src="assets/images/medium/md-aurora-2.jpg" 
+    alt="md-aurora-2" 
+    sizes="(min-width: 960px) 80vw,
+            (min-width: 640px) 90vw, 100vw" 
+    srcset="assets\images\small\sm-aurora-2.jpg 700w,
+            assets\images\medium\md-aurora-2.jpg 900w,
+            assets\images\large\lg-aurora-2-webp 1200w"
+    loading="lazy">
+    <!-- aurora 3 -->
+    <img src="assets/images/medium/md-aurora-3.jpg" 
+    alt="md-aurora-3" 
+    sizes="(min-width: 960px) 80vw,
+            (min-width: 640px) 90vw, 100vw" 
+    srcset="assets\images\small\sm-aurora-3.jpg 700w,
+            assets\images\medium\md-aurora-3.jpg 900w,
+            assets\images\large\lg-aurora-3-webp 1200w"
+    loading="lazy">
+  </section>
+
+</body>
+</html>
