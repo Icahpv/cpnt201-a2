@@ -9,3 +9,17 @@ img {
   width: 100%;
   margin: 3rem auto;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  margin: 20px;
+}
+
+img {
+  border-radius: 15px;
+}

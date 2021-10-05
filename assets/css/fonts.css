@@ -1,0 +1,20 @@
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  padding: 20px;
+  background-image: linear-gradient(to right, rgb(88, 91, 248) , rgb(112, 221, 85));
+  color: white;
+  font-family: 'gluten', cursive;
+  text-shadow: 1px 1px 2px black;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  background-image: linear-gradient(to right, rgb(180, 50, 255) , rgb(112, 221, 85));
+  color: white;
+  box-shadow: 2px 2px 4px black;
+  border-radius: 10px;
+}
